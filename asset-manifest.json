@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/AIDIYFYS-Jobportal/static/css/main.c3291bb4.css",
+    "main.js": "/AIDIYFYS-Jobportal/static/js/main.d3c7589d.js",
+    "static/media/bgslide1.jpeg": "/AIDIYFYS-Jobportal/static/media/bgslide1.ada3766ccf389bdcd894.jpeg",
+    "static/media/bgslide3.jpg": "/AIDIYFYS-Jobportal/static/media/bgslide3.afdd882636643eba2852.jpg",
+    "static/media/blogbg.jpg": "/AIDIYFYS-Jobportal/static/media/blogbg.13b85ff7b6f2e7678689.jpg",
+    "static/media/Aboutus.jpg": "/AIDIYFYS-Jobportal/static/media/Aboutus.cf7613969e3072f42251.jpg",
+    "index.html": "/AIDIYFYS-Jobportal/index.html",
+    "main.c3291bb4.css.map": "/AIDIYFYS-Jobportal/static/css/main.c3291bb4.css.map",
+    "main.d3c7589d.js.map": "/AIDIYFYS-Jobportal/static/js/main.d3c7589d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3291bb4.css",
+    "static/js/main.d3c7589d.js"
+  ]
+}
