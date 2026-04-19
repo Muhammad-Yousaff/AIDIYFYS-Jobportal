@@ -91,6 +91,7 @@ const Navbar = () => {
     { path: "/post-job", title: "Post Job" },
     ...(userName ? [{ path: "/my-job", title: "My Jobs" }] : []),
     { path: "/browsejobs", title: "Browse Jobs" },
+    { path: "/resume-analyzer", title: "AI Resume Analyzer" },
     { path: "/contact", title: "Contact Us" },
     { path: "/blog", title: "Blogs" },
   ];

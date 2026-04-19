@@ -7,6 +7,23 @@ All backend API calls are handled by an in-browser mock backend:
 - Data is persisted in `localStorage`.
 - Existing pages (jobs, auth, blogs, apply, saved jobs, profile) continue to work.
 
+## AI Resume Analyzer
+
+The app includes a new AI Resume Analyzer page at `/resume-analyzer`.
+
+Features:
+- Reads uploaded resume text files.
+- Extracts skills.
+- Scores resume quality.
+- Suggests improvements.
+- Matches resume with a job description.
+- Generates candidate summary.
+- Saves recent analysis history in browser storage.
+
+Optional AI endpoint:
+- Set `REACT_APP_RESUME_AI_ENDPOINT` in your environment.
+- Click "Generate AI Summary from API" on the analyzer page to request a server-generated summary.
+
 ## Run Locally
 
 1. Install dependencies:

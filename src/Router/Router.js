@@ -5,7 +5,6 @@ import CreateJob from "../Pages/CreateJob";
 import { MyJobs } from "../Pages/MyJobs";
 import Updatejob from "../Pages/Updatejob";
 import Contact from "../Pages/Contact";
-import CvBuilder from "../Pages/CvBuilder";
 import TermsConditions from "../Pages/Term";
 import Privacy from "../Pages/Privacy";
 import Browsejobs from "../Pages/Browsejobs";
@@ -26,6 +25,7 @@ import Blogdetail from "../Pages/Blogdetail";
 import About from "../Pages/Aboutus";
 import Sitemap from "../Pages/Sitemap";
 import NotFound from "../Pages/Notfound";
+import ResumeAnalyzer from "../Pages/ResumeAnalyzer";
 
 const router = createBrowserRouter([
   {
@@ -129,6 +129,10 @@ const router = createBrowserRouter([
       {
         path: "sitemap",
         element: <Sitemap />
+      },
+      {
+        path: "resume-analyzer",
+        element: <ResumeAnalyzer />
       },
       {
         path: "*",
